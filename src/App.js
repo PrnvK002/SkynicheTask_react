@@ -10,6 +10,7 @@ function App() {
   return (
     <>
         <Header />
+        <Dashboard />
       {/* <BrowserRouter>
         <Routes>
           <Route path='/' element={<Dashboard />} />

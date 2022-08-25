@@ -1,7 +1,16 @@
-import React from 'react'
+import React from 'react';
+import { Container } from '@mui/material';
+import { EmployeeComponent } from '../Components/EmployeeComponent'
 
 export const Dashboard = () => {
-  return (
-    <div>Dashboard</div>
-  )
+    return (
+        <>
+            <Container fixed >
+                <h3>
+                    Employee    
+                </h3>
+                <EmployeeComponent />
+            </Container>
+        </>
+    )
 }
